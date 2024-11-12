@@ -1,0 +1,35 @@
+node_modules
+
+# Build files
+.next
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Config files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Cache files
+.cache
+
+# editor files
+.vscode
+.idea
+*.swp
+
+# Test files
+__tests__
+__mocks__
+coverage
+docs
+
+# Tmp files
+*.temp
+*.tmp
+.DS_Store
+Thumbs.db

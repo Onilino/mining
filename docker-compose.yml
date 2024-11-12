@@ -1,0 +1,19 @@
+services:
+  api:
+    build:
+      context: ./apps/mining-api
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - api:/app
+
+  front:
+    build:
+      context: ./apps/mining-front
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+
+volumes:
+  api:
